@@ -1,0 +1,11 @@
+<suite name="Smoke Pack" thread-count = "4" parallel = "methods">
+    <test name ="com.automation.tests" preserve-order="true">
+        <classes>
+            <class name = "com.automation.tests.LoginTests">
+                <include name = "validateLoginFunctionality"/>
+                <include name = "validateLoginFunctionality1"/>
+                <include name = "validateLoginFunctionality2"/>
+            </class>
+        </classes>
+    </test>
+</suite>
